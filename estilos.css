@@ -106,3 +106,29 @@ font-weight: bold;
     
 }
 
+.mascota-raza{
+    padding: 20px;
+    color: #297DB5;
+    
+}
+
+.mascota-nombre{
+    text-align: justify;
+    color: #31364A;
+    
+}
+
+.mascota-edad{
+    text-align: justify;
+    color: #31364A;
+    
+}
+
+.mascota-precio{
+    padding: 20px;
+    font-size: 40px;
+    color: #B83B6C;
+}
+
+
+
