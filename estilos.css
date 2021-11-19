@@ -83,6 +83,10 @@ body{
     grid-gap: 10px;
 }
 
+.container-productos-compras{
+    margin: 5% auto;
+    padding: 20px;
+}
 .producto{
     
     border: 1px solid #ccc;
@@ -131,4 +135,17 @@ font-weight: bold;
 }
 
 
+.formulario-titulo{
+ text-align: center;
+}
 
+.form-button{
+    padding: 20px;
+    text-align: center
+}
+
+.formulario-compra{
+    margin: 5% auto;
+    padding: 20px;
+    
+}
