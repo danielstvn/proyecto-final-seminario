@@ -65,7 +65,7 @@ CREATE TABLE `mascotas` (
 
 LOCK TABLES `mascotas` WRITE;
 /*!40000 ALTER TABLE `mascotas` DISABLE KEYS */;
-INSERT INTO `mascotas` VALUES (1,'Zeus','Akita Americano','11 Meses',250000,'/img/mascotas/zeus.jpg','https://es.wikipedia.org/wiki/Akita_Americano'),(2,'Nala','Labrador retriever','6 Meses',250000,'/img/mascotas/nala.jpg','https://es.wikipedia.org/wiki/Labrador_retriever'),(3,'Toby','Rottweiler','3 Meses',250000,'/img/mascotas/toby.jpg','https://es.wikipedia.org/wiki/Akita_Americano'),(4,'Pecas','Dálmata ','2 Meses',250000,'/img/mascotas/pecas.jpg','https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)'),(5,'Macarena','Pastor Alemán Belga','1 Año',250000,'/img/mascotas/macarena.jpg','https://www.hillspet.es/dog-care/dog-breeds/belgian-malinois'),(6,'Lobo','Husky siberiano','18 Meses',250000,'/img/mascotas/lobo.jpg','https://es.wikipedia.org/wiki/Husky_siberiano'),(7,'Lukas','Boyero de Berna','2 Años',250000,'/img/mascotas/lukas.jpg','https://es.wikipedia.org/wiki/Boyero_de_Berna');
+INSERT INTO `mascotas` VALUES (1,'Zeus','Akita Americano','11 Meses',250000,'./img/mascotas/zeus.jpg','https://es.wikipedia.org/wiki/Akita_Americano'),(2,'Nala','Labrador retriever','6 Meses',480000,'./img/mascotas/nala.jpg','https://es.wikipedia.org/wiki/Labrador_retriever'),(3,'Toby','Rottweiler','3 Meses',350000,'./img/mascotas/toby.jpg','https://es.wikipedia.org/wiki/Akita_Americano'),(4,'Pecas','Dálmata ','2 Meses',500000,'./img/mascotas/pecas.jpg','https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)'),(5,'Macarena','Pastor Alemán Belga','1 Año',600000,'./img/mascotas/macarena.jpeg','https://www.hillspet.es/dog-care/dog-breeds/belgian-malinois'),(6,'Lobo','Husky siberiano','18 Meses',900000,'./img/mascotas/lobo.jpg','https://es.wikipedia.org/wiki/Husky_siberiano'),(7,'Lukas','Boyero de Berna','2 Años',700000,'./img/mascotas/lukas.jpg','https://es.wikipedia.org/wiki/Boyero_de_Berna');
 /*!40000 ALTER TABLE `mascotas` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-18 23:43:02
+-- Dump completed on 2021-11-19 11:34:21
