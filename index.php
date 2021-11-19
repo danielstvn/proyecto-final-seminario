@@ -102,6 +102,7 @@
                       $precio = $mascotas['precio'];
                       $imgRuta = $mascotas['img_ruta'];
                       $razaURL = $mascotas['raza_url'];
+                      $id = $mascotas['id'];
 
                       ?>
                       <div class="producto">
@@ -120,10 +121,14 @@
                         </div>
                         
                         <?php 
-                           echo "<a href='".$razaURL."'><button type='button' class='btn btn-primary'>Detalles de la raza </button></a>";
+                           echo "<a href='".$razaURL."'><button type='button' class='btn btn-primary'>Detalles de la raza</button></a>";
+
+                           echo "    ";
+
+                           echo "<a href='formulario.compras.php?id=".$id."'><button type='button' class='btn btn-success'>Solicitar</button></a>";
                         ?>
                         
-                        <a href="formulario.compras.php"><button type="button" class="btn btn-success">Solicitar</button></a>
+                        
 
 
                         
