@@ -81,7 +81,7 @@
             <div class="container-productos">
 
         <?php 
-
+          
           $mascotas;
             $conexion=mysqli_connect("127.0.0.1","danielstvn","daniel123","tienda_mascotas");
                 if(mysqli_connect_errno()){
@@ -105,14 +105,28 @@
 
                       ?>
                       <div class="producto">
-                        <img src="'<?php echo $imgRuta;?>'" alt="imagen mascota">
-                        <div class="producto-descripcion">
-                            <h3 class="producto-titulo"><?php echo $nombre;?></h3>      
-                            <span class="producto-precio"></span>
-                        </div>
-                        <button type="button" class="btn btn-primary">Detalles de la raza</button>
+                        
+                        <?php 
+                           echo "<img src='".$imgRuta."'>";
+                        ?>
 
-                        <button type="button" class="btn btn-success">Solicitar</button>
+                        <div class="producto-descripcion">
+                            <h1 class="mascota-raza"><?php echo $raza;?></h1>
+                            <h3 class="mascota-nombre">Nombre: <?php echo $nombre;?></h3>
+                            <h3 class="mascota-edad">Edad: <?php echo $edad;?></h3>
+                            
+                            <h1 class="mascota-precio">$ <?php echo $precio;?></h1>
+                            <span > </span>
+                        </div>
+                        
+                        <?php 
+                           echo "<a href='".$razaURL."'><button type='button' class='btn btn-primary'>Detalles de la raza </button></a>";
+                        ?>
+                        
+                        <a href="formulario.compras.php"><button type="button" class="btn btn-success">Solicitar</button></a>
+
+
+                        
                     </div>
                     <?php
                             
